@@ -1,0 +1,1034 @@
+Autograder [Thu Mar 31 23:57:12 2016]: Received job 15440-s16_project3ch3_1_luxiaod@andrew.cmu.edu:1278
+Autograder [Fri Apr  1 00:01:54 2016]: Success: Autodriver returned normally
+Autograder [Fri Apr  1 00:01:54 2016]: Here is the output from the autograder:
+---
+Autodriver: Job exited with status 0
+tar xmf autograde.tar
+cd autograde/build; tar xmzf ../../handin.tgz; CLASSPATH=`pwd`/:`pwd`/../lib make
+make[1]: Entering directory `/home/autograde/autolab/autograde/build'
+javac Server.java
+make[1]: Leaving directory `/home/autograde/autolab/autograde/build'
+cd autograde; CLASSPATH=`pwd`/lib:`pwd`/build ./script/grade-ch3.sh
+Project 3 Checkpoint 3
+Test: A day in life with cache                                pass
+Test: The Real Black Friday                                   fail
+HINT: Do you need so many servers?
+cloud stdout:
+--------start--------
+Starting Cloud
+Mix responsibilities check: true
+Cloud is registered
+VM 0 Booting
+VM 1 Booting
+VM 1 Running
+VM 0 Running
+Time 105
+client 0 started
+client 0 browse TOPLEVEL
+client 0 ended, status: failed
+Time 225
+client 1 started
+VM 2 Booting
+client 1 browse TOPLEVEL
+client 1 got reply 
+client 1 ended, status: dropped
+Time 366
+client 2 started
+client 2 browse TOPLEVEL
+client 2 got reply 
+client 2 ended, status: dropped
+Time 494
+client 3 started
+client 3 browse TOPLEVEL
+client 3 got reply 
+client 3 ended, status: dropped
+Time 610
+client 4 started
+client 4 browse TOPLEVEL
+client 4 got reply 
+client 4 ended, status: dropped
+Time 723
+client 5 started
+client 5 browse TOPLEVEL
+client 5 got reply 
+client 5 ended, status: dropped
+Time 832
+client 6 started
+client 6 browse TOPLEVEL
+client 6 got reply 
+client 6 ended, status: dropped
+Time 948
+client 7 started
+client 7 browse TOPLEVEL
+client 7 got reply 
+client 7 ended, status: dropped
+Time 1080
+client 8 started
+client 8 browse TOPLEVEL
+client 8 got reply 
+client 8 ended, status: dropped
+Time 1209
+client 9 started
+client 9 browse TOPLEVEL
+client 9 got reply 
+client 9 ended, status: dropped
+Time 1335
+client 10 started
+client 10 browse TOPLEVEL
+client 10 got reply 
+client 10 ended, status: dropped
+Time 1451
+client 11 started
+client 11 browse TOPLEVEL
+client 11 got reply 
+client 11 ended, status: dropped
+Time 1578
+client 12 started
+client 12 browse TOPLEVEL
+client 12 got reply 
+client 12 ended, status: dropped
+Time 1690
+client 13 started
+client 13 browse TOPLEVEL
+client 13 got reply 
+client 13 ended, status: dropped
+Time 1817
+client 14 started
+client 14 browse TOPLEVEL
+client 14 got reply 
+client 14 ended, status: dropped
+Time 1953
+client 15 started
+client 15 browse TOPLEVEL
+client 15 got reply 
+client 15 ended, status: dropped
+Time 2090
+client 16 started
+client 16 browse TOPLEVEL
+client 16 got reply 
+client 16 ended, status: dropped
+Time 2212
+client 17 started
+client 17 browse TOPLEVEL
+client 17 got reply 
+client 17 ended, status: dropped
+Time 2332
+client 18 started
+client 18 browse TOPLEVEL
+client 18 got reply 
+client 18 ended, status: dropped
+Time 2445
+client 19 started
+client 19 browse TOPLEVEL
+client 19 got reply 
+client 19 ended, status: dropped
+Time 2558
+client 20 started
+client 20 browse TOPLEVEL
+client 20 got reply 
+client 20 ended, status: dropped
+Time 2679
+client 21 started
+client 21 browse TOPLEVEL
+client 21 got reply 
+client 21 ended, status: dropped
+Time 2789
+client 22 started
+client 22 browse TOPLEVEL
+client 22 got reply 
+client 22 ended, status: dropped
+Time 2917
+client 23 started
+client 23 browse TOPLEVEL
+client 23 got reply 
+client 23 ended, status: dropped
+Time 3029
+client 24 started
+client 24 browse TOPLEVEL
+client 24 got reply 
+client 24 ended, status: dropped
+Time 3154
+client 25 started
+client 25 browse TOPLEVEL
+client 25 got reply 
+client 25 ended, status: dropped
+Time 3277
+client 26 started
+client 26 browse TOPLEVEL
+client 26 got reply 
+client 26 ended, status: dropped
+Time 3393
+client 27 started
+client 27 browse TOPLEVEL
+client 27 got reply 
+client 27 ended, status: dropped
+Time 3510
+client 28 started
+client 28 browse TOPLEVEL
+client 28 got reply 
+client 28 ended, status: dropped
+Time 3645
+client 29 started
+client 29 browse TOPLEVEL
+client 29 got reply 
+client 29 ended, status: dropped
+Time 3756
+client 30 started
+client 30 browse TOPLEVEL
+client 30 got reply 
+client 30 ended, status: dropped
+Time 3884
+client 31 started
+client 31 browse TOPLEVEL
+client 31 got reply 
+client 31 ended, status: dropped
+Time 4005
+client 32 started
+client 32 browse TOPLEVEL
+client 32 got reply 
+client 32 ended, status: dropped
+Time 4123
+client 33 started
+client 33 browse TOPLEVEL
+client 33 got reply 
+client 33 ended, status: dropped
+Time 4244
+client 34 started
+client 34 browse TOPLEVEL
+client 34 got reply 
+client 34 ended, status: dropped
+Time 4381
+client 35 started
+client 35 browse TOPLEVEL
+client 35 got reply 
+client 35 ended, status: dropped
+Time 4506
+client 36 started
+client 36 browse TOPLEVEL
+client 36 got reply 
+client 36 ended, status: dropped
+Time 4640
+client 37 started
+client 37 browse TOPLEVEL
+client 37 got reply 
+client 37 ended, status: dropped
+Time 4758
+client 38 started
+client 38 browse TOPLEVEL
+client 38 got reply 
+client 38 ended, status: dropped
+Time 4868
+client 39 started
+client 39 browse TOPLEVEL
+client 39 got reply 
+client 39 ended, status: dropped
+Time 4982
+client 40 started
+client 40 browse TOPLEVEL
+client 40 got reply 
+client 40 ended, status: dropped
+Time 5105
+client 41 started
+client 41 browse TOPLEVEL
+client 41 got reply 
+client 41 ended, status: dropped
+Time 5223
+client 42 started
+client 42 browse TOPLEVEL
+VM 2 Running
+client 42 got reply 
+client 42 ended, status: dropped
+Time 5344
+client 43 started
+client 43 browse TOPLEVEL
+Time 5459
+client 44 started
+client 44 browse TOPLEVEL
+Time 5589
+client 45 started
+client 45 browse TOPLEVEL
+client 43 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 5724
+client 46 started
+client 46 browse TOPLEVEL
+Time 5856
+client 47 started
+client 47 browse TOPLEVEL
+VM 3 Booting
+client 44 got reply Jewelry, Electronics, Office Supplies, Pets
+client 45 got reply 
+client 45 ended, status: dropped
+Time 5970
+client 48 started
+client 48 browse TOPLEVEL
+Time 6105
+client 49 started
+client 49 browse TOPLEVEL
+client 46 got reply Jewelry, Electronics, Office Supplies, Pets
+[... 3820 lines skipped ...]
+client 432 ended, status: purchased
+client 452 browse Writing Instruments
+client 448 got reply ITEM,35.07,4367
+client 467 got reply Writing Instruments, Stationary
+client 446 ended, status: ok
+client 465 browse Jewelry
+client 452 got reply pen, No. 2 pencil, typewriter
+client 421 ended, status: purchased
+client 466 browse  Pets
+client 465 got reply Ring, Necklace, Earring, Bracelet
+client 434 browse  typewriter
+client 425 purchase  Sterling Silver Blue Topaz & Diamond Necklace
+client 430 ended, status: ok
+client 466 got reply goldfish, alpaca, ant farm, bird, cat, dog, ferret, fish, frog, gecko, gerbil, goat, guinea pig, hamster, hedgehog, hermit crab, horse, iguana, mantis, mouse, newt, pig, rabbit, rat, salamander, sheep, snake, spider, stick bug, turtle
+client 445 ended, status: ok
+client 434 got reply ITEM,150.0,0
+client 468 browse  Electronics
+client 438 browse pen
+client 439 ended, status: ok
+client 453 browse  iPhone
+client 456 browse Writing Instruments
+client 468 got reply iPad, iPhone, Android Devices, bluetooth headset
+client 438 got reply ITEM,1.25,985
+client 447 browse  Sterling Silver Blue Topaz & Diamond Necklace
+client 425 ended, status: purchased
+client 453 got reply ITEM,600.0,0
+client 457 browse  iPhone
+client 456 got reply pen, No. 2 pencil, typewriter
+client 451 purchase  frog
+client 447 got reply ITEM,535.97,3769
+client 449 browse  typewriter
+client 457 got reply ITEM,600.0,0
+client 443 browse  Diamond Leaf Pendant Necklace
+client 452 browse  typewriter
+client 449 got reply ITEM,150.0,0
+client 449 ended, status: ok
+client 443 got reply ITEM,882.18,1337
+client 443 ended, status: ok
+client 452 got reply ITEM,150.0,0
+client 461 browse  Necklace
+client 451 ended, status: purchased
+client 462 browse  mantis
+client 448 purchase  stick bug
+client 460 browse  iPhone
+client 461 got reply Teardrop London Blue Topaz Necklace, Sterling Silver Blue Topaz & Diamond Necklace, Sky Blue Topaz & Diamond Necklace, Faceted Heart Shaped Blue Topaz Necklace, Aquamarine Pendant Necklace, Diamond Leaf Pendant Necklace, Diamond Heart Necklace, Freshwater Pearl Necklace
+client 462 got reply ITEM,101.94,1028
+client 460 got reply ITEM,600.0,0
+client 450 browse  Sterling Silver Blue Topaz & Diamond Necklace
+client 448 ended, status: purchased
+client 450 got reply ITEM,535.97,3769
+client 467 browse Writing Instruments
+client 447 purchase  Sterling Silver Blue Topaz & Diamond Necklace
+client 438 purchase pen
+client 466 browse  stick bug
+client 467 got reply pen, No. 2 pencil, typewriter
+client 465 browse  Necklace
+client 466 got reply ITEM,35.07,4366
+client 466 ended, status: ok
+client 468 browse  iPhone
+client 447 ended, status: purchased
+client 465 got reply Teardrop London Blue Topaz Necklace, Sterling Silver Blue Topaz & Diamond Necklace, Sky Blue Topaz & Diamond Necklace, Faceted Heart Shaped Blue Topaz Necklace, Aquamarine Pendant Necklace, Diamond Leaf Pendant Necklace, Diamond Heart Necklace, Freshwater Pearl Necklace
+client 434 ended, status: ok
+client 453 ended, status: ok
+client 468 got reply ITEM,600.0,0
+client 461 browse  Sterling Silver Blue Topaz & Diamond Necklace
+client 438 ended, status: purchased
+client 457 ended, status: ok
+client 462 purchase  mantis
+client 461 got reply ITEM,535.97,3768
+client 456 browse pen
+client 456 got reply ITEM,1.25,984
+client 462 ended, status: purchased
+client 452 ended, status: ok
+client 450 purchase  Sterling Silver Blue Topaz & Diamond Necklace
+client 460 ended, status: ok
+client 450 ended, status: purchased
+client 467 browse pen
+client 467 got reply ITEM,1.25,984
+client 465 browse  Diamond Leaf Pendant Necklace
+client 461 purchase  Sterling Silver Blue Topaz & Diamond Necklace
+client 465 got reply ITEM,882.18,1337
+client 465 ended, status: ok
+client 461 ended, status: purchased
+client 468 ended, status: ok
+client 456 purchase pen
+client 467 purchase pen
+client 456 ended, status: purchased
+client 467 ended, status: purchased
+END
+Stats: {purchased=155, dropped=82, failed=1, ok=216, timeout=15}
+Total sales: 91194.29
+Total erroneous sales: 0.0
+VM 0 Ended
+VM 1 Ended
+VM 2 Ended
+VM 3 Ended
+VM 4 Ended
+VM 5 Ended
+VM 6 Ended
+VM 7 Ended
+VM 8 Ended
+VM 9 Ended
+VM 10 Ended
+VM 11 Ended
+VM 12 Ended
+VM 13 Ended
+VM 14 Ended
+VM 0 Output ----------------
+VM 1 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 1
+*************Time:20
+activeMiddleVMs: 1
+Request to scale out middle tier when dif=2
+Current time:1459468696428, last middleScaleOutTime1459468690636
+Elapse: 5792
+activeMiddleVMs: 2
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468697061, last middleScaleOutTime1459468696428
+Elapse: 633
+activeMiddleVMs: 3
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468697879, last middleScaleOutTime1459468697061
+Elapse: 818
+activeMiddleVMs: 4
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468698212, last middleScaleOutTime1459468697879
+Elapse: 333
+activeMiddleVMs: 5
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+activeFrontVMs: 2
+@@@@@@@@@@@@@ Scale Out Front Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468698741, last middleScaleOutTime1459468698212
+Elapse: 529
+activeMiddleVMs: 6
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468699558, last middleScaleOutTime1459468698741
+Elapse: 817
+activeMiddleVMs: 7
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+Request to scale out middle tier when dif=2
+Current time:1459468699659, last middleScaleOutTime1459468699558
+Elapse: 101
+activeMiddleVMs: 8
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468700837, last middleScaleOutTime1459468699659
+Elapse: 1178
+activeMiddleVMs: 9
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+Request to scale out middle tier when dif=2
+Current time:1459468700939, last middleScaleOutTime1459468700838
+Elapse: 101
+activeMiddleVMs: 10
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+activeFrontVMs: 3
+@@@@@@@@@@@@@ Scale Out Front Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468712969, last middleScaleOutTime1459468700939
+Elapse: 12030
+activeMiddleVMs: 11
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+VM 2 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 2
+VM 3 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 3
+VM 4 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 4
+VM 5 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 5
+VM 6 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 6
+VM 7 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 7
+VM 8 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 8
+VM 9 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 9
+VM 10 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 10
+VM 11 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 11
+VM 12 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 12
+VM 13 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 13
+VM 14 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13890 14
+--------------------------
+Total VM time: 938901
+Cloud shutdown
+---------end---------
+cloud stderr:
+--------start--------
+---------end---------
+Test: Step Up                                                 pass
+Test: Step Down                                               fail
+HINT: Do you need so many servers?
+cloud stdout:
+--------start--------
+Starting Cloud
+Mix responsibilities check: true
+Cloud is registered
+VM 0 Booting
+VM 1 Booting
+VM 0 Running
+VM 1 Running
+Time 160
+client 0 started
+client 0 browse TOPLEVEL
+client 0 ended, status: failed
+VM 2 Booting
+Time 321
+client 1 started
+client 1 browse TOPLEVEL
+client 1 got reply 
+client 1 ended, status: dropped
+Time 482
+client 2 started
+client 2 browse TOPLEVEL
+client 2 got reply 
+client 2 ended, status: dropped
+Time 642
+client 3 started
+client 3 browse TOPLEVEL
+client 3 got reply 
+client 3 ended, status: dropped
+Time 802
+client 4 started
+client 4 browse TOPLEVEL
+client 4 got reply 
+client 4 ended, status: dropped
+Time 963
+client 5 started
+client 5 browse TOPLEVEL
+client 5 got reply 
+client 5 ended, status: dropped
+Time 1123
+client 6 started
+client 6 browse TOPLEVEL
+client 6 got reply 
+client 6 ended, status: dropped
+Time 1283
+client 7 started
+client 7 browse TOPLEVEL
+client 7 got reply 
+client 7 ended, status: dropped
+Time 1443
+client 8 started
+client 8 browse TOPLEVEL
+client 8 got reply 
+client 8 ended, status: dropped
+Time 1604
+client 9 started
+client 9 browse TOPLEVEL
+client 9 got reply 
+client 9 ended, status: dropped
+Time 1764
+client 10 started
+client 10 browse TOPLEVEL
+client 10 got reply 
+client 10 ended, status: dropped
+Time 1924
+client 11 started
+client 11 browse TOPLEVEL
+client 11 got reply 
+client 11 ended, status: dropped
+Time 2088
+client 12 started
+client 12 browse TOPLEVEL
+client 12 got reply 
+client 12 ended, status: dropped
+Time 2248
+client 13 started
+client 13 browse TOPLEVEL
+client 13 got reply 
+client 13 ended, status: dropped
+Time 2408
+client 14 started
+client 14 browse TOPLEVEL
+client 14 got reply 
+client 14 ended, status: dropped
+Time 2568
+client 15 started
+client 15 browse TOPLEVEL
+client 15 got reply 
+client 15 ended, status: dropped
+Time 2729
+client 16 started
+client 16 browse TOPLEVEL
+client 16 got reply 
+client 16 ended, status: dropped
+Time 2889
+client 17 started
+client 17 browse TOPLEVEL
+client 17 got reply 
+client 17 ended, status: dropped
+Time 3049
+client 18 started
+client 18 browse TOPLEVEL
+client 18 got reply 
+client 18 ended, status: dropped
+Time 3210
+client 19 started
+client 19 browse TOPLEVEL
+client 19 got reply 
+client 19 ended, status: dropped
+Time 3370
+client 20 started
+client 20 browse TOPLEVEL
+client 20 got reply 
+client 20 ended, status: dropped
+Time 3530
+client 21 started
+client 21 browse TOPLEVEL
+client 21 got reply 
+client 21 ended, status: dropped
+Time 3691
+client 22 started
+client 22 browse TOPLEVEL
+client 22 got reply 
+client 22 ended, status: dropped
+Time 3851
+client 23 started
+client 23 browse TOPLEVEL
+client 23 got reply 
+client 23 ended, status: dropped
+Time 4011
+client 24 started
+client 24 browse TOPLEVEL
+client 24 got reply 
+client 24 ended, status: dropped
+Time 4173
+client 25 started
+client 25 browse TOPLEVEL
+client 25 got reply 
+client 25 ended, status: dropped
+Time 4333
+client 26 started
+client 26 browse TOPLEVEL
+client 26 got reply 
+client 26 ended, status: dropped
+Time 4493
+client 27 started
+client 27 browse TOPLEVEL
+client 27 got reply 
+client 27 ended, status: dropped
+Time 4653
+client 28 started
+client 28 browse TOPLEVEL
+client 28 got reply 
+client 28 ended, status: dropped
+Time 4814
+client 29 started
+client 29 browse TOPLEVEL
+client 29 got reply 
+client 29 ended, status: dropped
+Time 4974
+client 30 started
+client 30 browse TOPLEVEL
+client 30 got reply 
+client 30 ended, status: dropped
+Time 5134
+client 31 started
+client 31 browse TOPLEVEL
+client 31 got reply 
+client 31 ended, status: dropped
+VM 2 Running
+Time 5295
+client 32 started
+client 32 browse TOPLEVEL
+Time 5455
+client 33 started
+client 33 browse TOPLEVEL
+Time 5615
+client 34 started
+client 34 browse TOPLEVEL
+client 32 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 5775
+client 35 started
+client 35 browse TOPLEVEL
+Time 5936
+client 36 started
+client 36 browse TOPLEVEL
+VM 3 Booting
+client 33 got reply Jewelry, Electronics, Office Supplies, Pets
+client 34 got reply 
+client 34 ended, status: dropped
+Time 6096
+client 37 started
+client 37 browse TOPLEVEL
+client 35 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 6256
+client 38 started
+client 38 browse TOPLEVEL
+client 36 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 6417
+client 39 started
+client 39 browse TOPLEVEL
+Time 6577
+client 40 started
+client 40 browse TOPLEVEL
+client 37 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 6737
+client 41 started
+client 41 browse TOPLEVEL
+client 38 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 6898
+client 42 started
+client 42 browse TOPLEVEL
+client 33 browse Jewelry
+VM 4 Booting
+client 39 got reply Jewelry, Electronics, Office Supplies, Pets
+client 40 got reply 
+client 40 ended, status: dropped
+client 41 got reply 
+client 41 ended, status: dropped
+Time 7058
+client 43 started
+client 43 browse TOPLEVEL
+Time 7219
+client 44 started
+client 44 browse TOPLEVEL
+client 42 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 7379
+client 45 started
+client 45 browse TOPLEVEL
+client 36 browse  Pets
+client 33 got reply Ring, Necklace, Earring, Bracelet
+Time 7539
+client 46 started
+client 46 browse TOPLEVEL
+client 32 browse  Pets
+VM 5 Booting
+client 43 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 7699
+client 47 started
+client 47 browse TOPLEVEL
+client 44 got reply 
+client 44 ended, status: dropped
+client 45 got reply 
+client 45 ended, status: dropped
+client 36 got reply 
+client 36 ended, status: dropped
+client 35 browse  Office Supplies
+Time 7860
+client 48 started
+client 48 browse TOPLEVEL
+client 46 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 8020
+[... 1404 lines skipped ...]
+client 192 browse  Diamond Leaf Pendant Necklace
+client 194 got reply pen, No. 2 pencil, typewriter
+client 197 got reply Jewelry, Electronics, Office Supplies, Pets
+client 192 got reply ITEM,882.18,1353
+client 196 browse Jewelry
+client 196 got reply Ring, Necklace, Earring, Bracelet
+client 196 ended, status: ok
+client 193 ended, status: ok
+Time 46655
+client 198 started
+client 198 browse TOPLEVEL
+client 198 got reply Jewelry, Electronics, Office Supplies, Pets
+client 197 browse  Electronics
+client 197 got reply iPad, iPhone, Android Devices, bluetooth headset
+client 194 browse pen
+Time 47766
+client 199 started
+client 199 browse TOPLEVEL
+client 194 got reply ITEM,1.25,994
+client 199 got reply Jewelry, Electronics, Office Supplies, Pets
+client 192 purchase  Diamond Leaf Pendant Necklace
+client 198 browse  Office Supplies
+client 192 ended, status: purchased
+client 197 browse  iPhone
+client 198 got reply Writing Instruments, Stationary
+client 197 got reply ITEM,600.0,0
+client 197 ended, status: ok
+Time 48874
+client 200 started
+client 200 browse TOPLEVEL
+client 200 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 49983
+client 201 started
+client 201 browse TOPLEVEL
+client 194 purchase pen
+client 200 browse Jewelry
+client 199 browse  Pets
+client 201 got reply Jewelry, Electronics, Office Supplies, Pets
+client 201 ended, status: ok
+client 200 got reply Ring, Necklace, Earring, Bracelet
+client 199 got reply goldfish, alpaca, ant farm, bird, cat, dog, ferret, fish, frog, gecko, gerbil, goat, guinea pig, hamster, hedgehog, hermit crab, horse, iguana, mantis, mouse, newt, pig, rabbit, rat, salamander, sheep, snake, spider, stick bug, turtle
+client 194 ended, status: purchased
+client 198 browse Writing Instruments
+client 198 got reply pen, No. 2 pencil, typewriter
+Time 51090
+client 202 started
+client 202 browse TOPLEVEL
+client 202 got reply Jewelry, Electronics, Office Supplies, Pets
+Time 52211
+client 203 started
+client 203 browse TOPLEVEL
+client 199 browse  stick bug
+client 203 got reply Jewelry, Electronics, Office Supplies, Pets
+client 199 got reply ITEM,35.07,4366
+client 200 browse  Necklace
+client 198 browse  No. 2 pencil
+client 200 got reply Teardrop London Blue Topaz Necklace, Sterling Silver Blue Topaz & Diamond Necklace, Sky Blue Topaz & Diamond Necklace, Faceted Heart Shaped Blue Topaz Necklace, Aquamarine Pendant Necklace, Diamond Leaf Pendant Necklace, Diamond Heart Necklace, Freshwater Pearl Necklace
+client 198 got reply ITEM,0.2,9997
+client 198 ended, status: ok
+client 202 browse  Office Supplies
+Time 53324
+client 204 started
+client 204 browse TOPLEVEL
+client 202 got reply Writing Instruments, Stationary
+client 202 ended, status: ok
+client 204 got reply Jewelry, Electronics, Office Supplies, Pets
+client 200 browse  Diamond Leaf Pendant Necklace
+client 203 browse  Pets
+client 200 got reply ITEM,882.18,1352
+client 203 got reply goldfish, alpaca, ant farm, bird, cat, dog, ferret, fish, frog, gecko, gerbil, goat, guinea pig, hamster, hedgehog, hermit crab, horse, iguana, mantis, mouse, newt, pig, rabbit, rat, salamander, sheep, snake, spider, stick bug, turtle
+client 199 purchase  stick bug
+Time 54431
+client 205 started
+client 205 browse TOPLEVEL
+client 205 got reply Jewelry, Electronics, Office Supplies, Pets
+client 205 ended, status: ok
+client 199 ended, status: purchased
+client 204 browse Jewelry
+Time 55531
+client 206 started
+client 206 browse TOPLEVEL
+client 204 got reply Ring, Necklace, Earring, Bracelet
+client 206 got reply Jewelry, Electronics, Office Supplies, Pets
+client 200 purchase  Diamond Leaf Pendant Necklace
+client 203 browse  salamander
+client 203 got reply ITEM,166.31,3033
+client 200 ended, status: purchased
+Time 56644
+client 207 started
+client 207 browse TOPLEVEL
+client 206 browse  Office Supplies
+client 207 got reply Jewelry, Electronics, Office Supplies, Pets
+client 206 got reply Writing Instruments, Stationary
+client 206 ended, status: ok
+client 204 browse  Necklace
+client 204 got reply Teardrop London Blue Topaz Necklace, Sterling Silver Blue Topaz & Diamond Necklace, Sky Blue Topaz & Diamond Necklace, Faceted Heart Shaped Blue Topaz Necklace, Aquamarine Pendant Necklace, Diamond Leaf Pendant Necklace, Diamond Heart Necklace, Freshwater Pearl Necklace
+client 203 purchase  salamander
+Time 57750
+client 208 started
+client 208 browse TOPLEVEL
+client 208 got reply Jewelry, Electronics, Office Supplies, Pets
+client 203 ended, status: purchased
+client 204 browse  Sterling Silver Blue Topaz & Diamond Necklace
+client 207 browse  Pets
+Time 58859
+client 209 started
+client 209 browse TOPLEVEL
+client 204 got reply ITEM,535.97,3783
+client 207 got reply goldfish, alpaca, ant farm, bird, cat, dog, ferret, fish, frog, gecko, gerbil, goat, guinea pig, hamster, hedgehog, hermit crab, horse, iguana, mantis, mouse, newt, pig, rabbit, rat, salamander, sheep, snake, spider, stick bug, turtle
+client 209 got reply Jewelry, Electronics, Office Supplies, Pets
+client 208 browse Jewelry
+client 208 got reply Ring, Necklace, Earring, Bracelet
+Time 59967
+client 210 started
+client 210 browse TOPLEVEL
+client 210 got reply Jewelry, Electronics, Office Supplies, Pets
+client 210 ended, status: ok
+client 207 browse  rabbit
+client 207 got reply ITEM,146.05,836
+client 204 purchase  Sterling Silver Blue Topaz & Diamond Necklace
+client 209 browse  Electronics
+client 209 got reply iPad, iPhone, Android Devices, bluetooth headset
+client 204 ended, status: purchased
+client 208 browse  Necklace
+client 208 got reply Teardrop London Blue Topaz Necklace, Sterling Silver Blue Topaz & Diamond Necklace, Sky Blue Topaz & Diamond Necklace, Faceted Heart Shaped Blue Topaz Necklace, Aquamarine Pendant Necklace, Diamond Leaf Pendant Necklace, Diamond Heart Necklace, Freshwater Pearl Necklace
+client 207 purchase  rabbit
+client 207 ended, status: purchased
+client 209 browse  iPhone
+client 209 got reply ITEM,600.0,0
+client 209 ended, status: ok
+client 208 browse  Diamond Leaf Pendant Necklace
+client 208 got reply ITEM,882.18,1351
+client 208 purchase  Diamond Leaf Pendant Necklace
+client 208 ended, status: purchased
+END
+Stats: {purchased=69, dropped=59, failed=1, ok=78, timeout=4}
+Total sales: 37051.258
+Total erroneous sales: 0.0
+VM 0 Ended
+VM 1 Ended
+VM 2 Ended
+VM 3 Ended
+VM 4 Ended
+VM 5 Ended
+VM 6 Ended
+VM 7 Ended
+VM 8 Ended
+VM 9 Ended
+VM 10 Ended
+VM 0 Output ----------------
+VM 1 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 1
+*************Time:20
+activeMiddleVMs: 1
+Request to scale out middle tier when dif=2
+Current time:1459468842371, last middleScaleOutTime1459468836513
+Elapse: 5858
+activeMiddleVMs: 2
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468843394, last middleScaleOutTime1459468842371
+Elapse: 1023
+activeMiddleVMs: 3
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468844086, last middleScaleOutTime1459468843394
+Elapse: 692
+activeMiddleVMs: 4
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468844736, last middleScaleOutTime1459468844086
+Elapse: 650
+activeMiddleVMs: 5
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+activeFrontVMs: 2
+@@@@@@@@@@@@@ Scale Out Front Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468845478, last middleScaleOutTime1459468844736
+Elapse: 742
+activeMiddleVMs: 6
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468846760, last middleScaleOutTime1459468845478
+Elapse: 1282
+activeMiddleVMs: 7
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+Request to scale out middle tier when dif=2
+Current time:1459468847782, last middleScaleOutTime1459468846760
+Elapse: 1022
+activeMiddleVMs: 8
+@@@@@@@@@@@@@ Scale Out Middle Tier! @@@@@@@@@@@@@
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+dropped request in getRequestFromQueue()
+VM 2 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 2
+VM 3 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 3
+VM 4 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 4
+VM 5 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 5
+VM 6 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 6
+VM 7 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 7
+VM 8 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 8
+VM 9 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 9
+VM 10 Output ----------------
+======================
+ 3 args are: 127.0.0.1 13892 10
+--------------------------
+Total VM time: 689664
+Cloud shutdown
+---------end---------
+cloud stderr:
+--------start--------
+---------end---------
+Sales Competition will run only after all other tests have been passed.
+{ "scores": {  "A day in life with cache" : 9,  "Black Friday" : 0,  "Step Up" : 7,  "Step Down" : 0 },  "scoreboard": [ 16 ,  0 ] }

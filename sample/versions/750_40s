@@ -1,0 +1,39 @@
+Starting Cloud
+Mix responsibilities check: false
+Cloud is registered
+VM 0 Booting
+VM 1 Booting
+VM 1 Running
+VM 0 Running
+VM 0 Ended
+VM 2 Booting
+Time 757
+client 0 started
+client 0 browse TOPLEVEL
+client 0 got reply 
+client 0 ended, status: dropped
+Time 1513
+client 1 started
+client 1 browse TOPLEVEL
+client 1 got reply 
+client 1 ended, status: dropped
+Time 2268
+client 2 started
+client 2 browse TOPLEVEL
+client 2 got reply 
+client 2 ended, status: dropped
+Time 3023
+client 3 started
+client 3 browse TOPLEVEL
+client 3 got reply 
+client 3 ended, status: dropped
+Time 3774
+client 4 started
+client 4 browse TOPLEVEL
+client 4 got reply 
+client 4 ended, status: dropped
+Time 4529
+client 5 started
+client 5 browse TOPLEVEL
+client 5 got reply 
+client 5 ended, status: dropped
